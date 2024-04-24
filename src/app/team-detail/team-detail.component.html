@@ -1,0 +1,47 @@
+<app-nav-bar></app-nav-bar>
+<div class="team-details-container">
+  <div class="team-details">
+    <h2 class="team-details-heading">Team Details</h2>
+  
+    <div *ngIf="teamDetail; else loading">
+      <ul class="team-details-list">
+        <li>
+          <span class="detail-label">Team:</span> {{ teamDetail.name }}
+        </li>
+        <li>
+          <span class="detail-label">Logo:</span> <img [src]="'/assets/' + teamDetail.icon" alt="{{ teamDetail.name }} icon" class="player-image">
+        </li>
+        <li>
+          <span class="detail-label">Top Batsman:</span> {{ topBatsman?.fullName }}
+        </li>
+        <li>
+          <span class="detail-label">Top Bowler:</span> {{ topBowler?.fullName }}
+        </li>
+        <li>
+          <span class="detail-label">Championship Won Count:</span> {{ championshipWonCount }}
+        </li>
+        <li>
+          <span class="detail-label">Player Count:</span> {{ teamDetail.players.length }}
+        </li>
+      </ul>
+        
+        <div class="player-grid">
+          <div *ngFor="let player of teamDetail.players; let i = index" class="player-card">
+            <a (click)="navigateToPlayerDetail(i)">
+            <img [src]="'/assets/' + player.photo" alt="{{ player.fullName }} photo" >
+            <h4>{{ player.fullName }}</h4>
+            <p>Price: {{ player.price }}</p>
+            <p>Playing Status: {{ player.playingStatus }}</p>
+            <p>Role: {{ player.role }}</p>
+           </a>
+          </div>          
+        </div>
+      
+    </div>
+  
+    <ng-template #loading>
+      <p>Loading...</p>
+    </ng-template>
+    
+  </div>
+</div>

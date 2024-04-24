@@ -1,0 +1,13 @@
+<app-nav-bar></app-nav-bar>
+
+<div *ngIf="playerDetail" class="player-detail-container">
+    <h2>{{ playerDetail.fullName }}</h2>
+    <img [src]="'/assets/' + playerDetail.photo" alt="{{ playerDetail.fullName }} photo" class="player-image">
+    <div class="player-info">
+      <p><strong>Team:</strong> {{ playerDetail.team }}</p>
+      <p><strong>Price:</strong> {{ playerDetail.price }}</p>
+      <p><strong>Playing Status:</strong> {{ playerDetail.playingStatus }}</p>
+      <p><strong>Role:</strong> {{ playerDetail.role }}</p>
+    </div>
+  </div>
+  

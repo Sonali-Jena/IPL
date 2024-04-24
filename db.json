@@ -1,0 +1,194 @@
+{
+  "teams": [
+    {
+      "name": "Mumbai Indians",
+      "icon": "mumbai-indians-icon.png",
+      "players": [
+        {
+          "fullName": "Rohit Sharma",
+          "photo": "rohit-sharma.jpg",
+          "team": "Mumbai Indians",
+          "price": "15 crores",
+          "playingStatus": "Playing",
+          "role": "Batsman"
+        },
+        {
+          "fullName": "Jasprit Bumrah",
+          "photo": "jasprit-bumrah.jpg",
+          "team": "Mumbai Indians",
+          "price": "12 crores",
+          "playingStatus": "Playing",
+          "role": "Bowler"
+        },
+        {
+          "fullName": "Hardik Pandya",
+          "photo": "hardik-pandya.jpg",
+          "team": "Mumbai Indians",
+          "price": "11 crores",
+          "playingStatus": "Playing",
+          "role": "All-rounder"
+        },
+        {
+          "fullName": "Kieron Pollard",
+          "photo": "kieron-pollard.jpg",
+          "team": "Mumbai Indians",
+          "price": "8 crores",
+          "playingStatus": "Playing",
+          "role": "All-rounder"
+        },
+        {
+          "fullName": "Ishan Kishan",
+          "photo": "ishan-kishan.jpg",
+          "team": "Mumbai Indians",
+          "price": "6 crores",
+          "playingStatus": "Playing",
+          "role": "Batsman"
+        }
+      ],
+      "id": "f6c0"
+    },
+    {
+      "name": "Chennai Super Kings",
+      "icon": "chennai-super-kings-icon.png",
+      "players": [
+        {
+          "fullName": "MS Dhoni",
+          "photo": "ms-dhoni.jpg",
+          "team": "Chennai Super Kings",
+          "price": "12 crores",
+          "playingStatus": "Playing",
+          "role": "Batsman"
+        },
+        {
+          "fullName": "Suresh Raina",
+          "photo": "suresh-raina.jpg",
+          "team": "Chennai Super Kings",
+          "price": "10 crores",
+          "playingStatus": "Playing",
+          "role": "Batsman"
+        },
+        {
+          "fullName": "Ravindra Jadeja",
+          "photo": "ravindra-jadeja.jpg",
+          "team": "Chennai Super Kings",
+          "price": "9 crores",
+          "playingStatus": "Playing",
+          "role": "All-rounder"
+        },
+        {
+          "fullName": "Deepak Chahar",
+          "photo": "deepak-chahar.jpg",
+          "team": "Chennai Super Kings",
+          "price": "6 crores",
+          "playingStatus": "Playing",
+          "role": "Bowler"
+        },
+        {
+          "fullName": "Faf du Plessis",
+          "photo": "faf-du-plessis.jpg",
+          "team": "Chennai Super Kings",
+          "price": "8 crores",
+          "playingStatus": "Playing",
+          "role": "Batsman"
+        }
+      ],
+      "id": "95a2"
+    }
+  ],
+  "users": [
+    {
+      "id": "944b",
+      "username": "Sonali",
+      "email": "a@gmail.com",
+      "password": "Admin@1234"
+    },
+    {
+      "id": "b335",
+      "username": "demo",
+      "email": "demo@gmail.com",
+      "password": "demo@1234"
+    },
+    {
+      "id": "1b3e",
+      "username": "A",
+      "email": "a@gmail.com",
+      "password": "Admin@1234"
+    },
+    {
+      "id": "59a9",
+      "username": "A",
+      "email": "a@gmail.com",
+      "password": "Admin@1234"
+    },
+    {
+      "id": "b45e",
+      "username": "Sonali",
+      "password": "Admin@1234"
+    },
+    {
+      "id": "919d",
+      "username": "Sonali",
+      "password": "Admin@1234"
+    },
+    {
+      "id": "1228",
+      "username": "Sonali",
+      "password": "Admin@1234"
+    },
+    {
+      "id": "3c5f",
+      "username": "Sonali",
+      "password": "Admin@1234"
+    },
+    {
+      "id": "be57",
+      "username": "Sonali",
+      "password": "Sonali@89"
+    },
+    {
+      "id": "9519",
+      "username": "Sonali",
+      "password": "Admin@1234"
+    },
+    {
+      "id": "0d62",
+      "username": "Sonali",
+      "password": "Admin@1234"
+    },
+    {
+      "id": "a3f1",
+      "username": "Sonali",
+      "password": "Admin@1234"
+    },
+    {
+      "id": "4529",
+      "username": "Sonali",
+      "password": "Admin@1234"
+    },
+    {
+      "id": "b641",
+      "username": "Sonali",
+      "password": "Admin@1234"
+    },
+    {
+      "id": "2318",
+      "username": "Sonali",
+      "password": "Admin@1234"
+    },
+    {
+      "id": "4e0a",
+      "username": "Sonali",
+      "password": "Admin@1234"
+    },
+    {
+      "id": "5597",
+      "username": "Sonali",
+      "password": "Admin@1234"
+    },
+    {
+      "id": "0303",
+      "username": "Sonali",
+      "password": "Admin@1234"
+    }
+  ]
+}
